@@ -2,6 +2,6 @@
 {
     public interface IFlyBehavior
     {
-        public void fly();
+        public void Fly();
     }
 }

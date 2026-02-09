@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Middleware Pipeline")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d9a6875c2ffd310175396a3ac95250f420b3930")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7cc6dd62ed96c69229c3f2060abc2e4903fba158")]
 [assembly: System.Reflection.AssemblyProductAttribute("Middleware Pipeline")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Middleware Pipeline")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

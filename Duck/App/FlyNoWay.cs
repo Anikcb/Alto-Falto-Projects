@@ -4,7 +4,7 @@ namespace Duck.App
 {
     public class FlyNoWay : IFlyBehavior
     {
-        public void fly()
+        public void Fly()
         {
             Console.WriteLine("Can not fly");
         }

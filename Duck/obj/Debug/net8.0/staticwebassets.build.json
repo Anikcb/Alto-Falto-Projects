@@ -1,12 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "WR2KjR+LPKHEDALdkIVO53NndWhNUJL/8w7HKQ9zThM=",
-  "Source": "Duck",
-  "BasePath": "_content/Duck",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
-}
+{"Version":1,"Hash":"hYOksyyDTFjAnSv8vbQG/msBi0EjuRDWUbkggeP0Qu4=","Source":"Duck","BasePath":"/","Mode":"Root","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

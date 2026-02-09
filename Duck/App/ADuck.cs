@@ -11,17 +11,26 @@ namespace Duck.App
         public abstract void display();
 
 
-        public void performFly()
+        public void PerformFly()
         {
-            flyBehavior.fly();
+            flyBehavior.Fly();
         }
 
-        public void performQuack()
+        public void PerformQuack()
         {
             quackBehavior.quack();
         }
 
-        public void swim()
+        public void SetFlyBehavior(IFlyBehavior fb)
+        {
+            flyBehavior = fb;
+        }
+        public void SetQuackBehavior(IQuackBehavior qb)
+        {
+            quackBehavior = qb;
+        }
+
+        public void Swim()
         {
             Console.WriteLine($"This duck can swim");
         }

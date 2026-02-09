@@ -2,11 +2,11 @@
 
 namespace Duck.App
 {
-    public class FlyWithWings : IFlyBehavior
+    public class FlyRocketPowered : IFlyBehavior
     {
         public void Fly()
         {
-            Console.WriteLine("Flying duck");
+            Console.WriteLine("I'm flying with a rocket!");
         }
     }
 }

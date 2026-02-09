@@ -2,7 +2,16 @@
 {
     public class MiniDuckSimulator
     {
-        ADuck mallardDuck = new MallardDuck();
-        mallardDuck.
+        public void Simulate()
+        {
+            ADuck mallardDuck = new MallardDuck();
+            mallardDuck.PerformQuack();
+            mallardDuck.PerformFly();
+
+            ADuck modelDuck = new ModelDuck();
+            modelDuck.PerformFly();
+            modelDuck.SetFlyBehavior(new FlyRocketPowered());
+            modelDuck.PerformFly();
+        }
     }
 }

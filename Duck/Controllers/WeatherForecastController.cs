@@ -1,3 +1,4 @@
+using Duck.App;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Duck.Controllers
@@ -21,6 +22,9 @@ namespace Duck.Controllers
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
+            var duckSimulator = new MiniDuckSimulator();
+            duckSimulator.Simulate();
+
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
